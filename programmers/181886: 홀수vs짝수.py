@@ -17,3 +17,9 @@ def solution(num_list):
         return sum_odd
     else:
         return sum_even
+
+# sol2
+
+
+def solution(num_list):
+    return max(sum(num_list[::2]), sum(num_list[1::2]))
