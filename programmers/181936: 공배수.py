@@ -14,3 +14,5 @@ def solution(number, n, m):
 
 def solution(number, n, m):
     return int(bool((number % n == 0) and (number % m == 0)))
+
+# and랑 &랑 다른데 차이점 알아두기
