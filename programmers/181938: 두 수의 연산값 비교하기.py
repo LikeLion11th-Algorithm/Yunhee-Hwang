@@ -6,4 +6,4 @@
 
 # sol
 def solution(a, b):
-    return int(max(int(f"{a}{b}"), a*b*2))
+    return max(int(f"{a}{b}"), a*b*2)
