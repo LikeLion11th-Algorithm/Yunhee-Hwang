@@ -10,7 +10,7 @@ def solution(num_list):
     for i in range(len(num_list)):
         if num_list[i] < 0:
             answer = i
-            break
+            break  # break 안 쓰면 첫번째로 나오는 음수가 아니라 마지막에 나온 음수
 
     return answer
 
