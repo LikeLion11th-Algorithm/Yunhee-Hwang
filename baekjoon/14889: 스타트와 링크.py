@@ -11,6 +11,7 @@ for i in range(n):
     S[i] = list(map(int, input().split()))
 
 # 숫자 2가지 조합 뽑기
+# list()로 리스트 만드는 거랑 [] 이렇게 리스트 만드는거랑 다르니까 주의하기. 여기에선 list()만 가능
 teams = list(combinations(nums, n//2))
 
 
