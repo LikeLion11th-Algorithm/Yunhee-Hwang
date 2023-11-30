@@ -20,6 +20,4 @@ def solution(bricks):
 	    min_height = min(left_max_heights[i], right_max_heights[i])
 	    if min_height > bricks[i]:
 	        answer += min_height - bricks[i]
-
-
     return answer
