@@ -19,7 +19,7 @@ def solution(name, yearning, photo):
 def solution(name, yearning, photo):
     answer = []
     # zip, for문으로 줄인 버전
-    dic = {x: y for x, y in list(zip(name, yearning))}
+    dic = {x: y for x, y in zip(name, yearning)}
 
     for pho in photo:
         s = 0
